@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flower Arrangements</title>
+    <link rel="stylesheet" href="./css/base.css" />
+    <link
+      rel="stylesheet"
+      href="./css/owl.carousel.min.css"
+    />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  </head>
+  <body class=" w-full h-full  dark:bg-[url('none')]  dark:bg-gray-800">
+    <header
+      class="flex justify-between items-center w-[full] h-[60px] md:h-[100px] px-[10px] xl:px-[48px] bg-[#c77d6b] opacity-80 text-[13px] lg:text-[14px] text-white font-[Montserrat-Bold] dark:bg-gray-700"
+    >
+      <div>
+        <a href="#"
+          ><img
+            class="w-[110px] md:w-[150px] lg:w-[160px]"
+            src="./images/Logo.png"
+            alt="logo"
+        /></a>
+      </div>
+
+      <input class="hidden" type="radio" name="menu" id="open" />
+      <input class="hidden" type="radio" name="menu" id="close" />
+      <div
+        class="menu hidden leading-[37px] text-center w-[108px] h-[150px] md:w-max md:h-max  bg-[#c77d6b]  absolute top-[60px] right-[0]  md:static md:bg-transparent md:flex  dark:bg-gray-700"
+      >
+        <label for="close"
+          ><img
+            class="w-[26px] cursor-pointe md:hidden"
+            src="./images/close.svg"
+            alt="close-menu"
+        /></label>
+        <ul
+          class="nav mt-[-6px] md:mt-0 md:gap-[32px]  lg:gap-[62px]  2xl:gap-[130px] 2xl:mr-[-120px] "
+        >
+          <li>
+            <a
+              class="hover:text-black transition-all linear duration-300"
+              href="#"
+              >HOME</a
+            >
+          </li>
+          <li>
+            <a
+              class="hover:text-black transition-all linear duration-300"
+              href="#"
+              >SERVICES</a
+            >
+          </li>
+          <li>
+            <a
+              class="hover:text-black transition-all linear duration-300"
+              href="#"
+              >ABOUT</a
+            >
+          </li>
+          <li>
+            <a
+              class="hover:text-black transition-all linear duration-300"
+              href="#"
+              >CONTACT</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <button
+        type="button"
+        class="rounded-full w-[70px] h-[23px] border-2 hover:text-black hover:border-black md:ml-[-6%] md:w-[82px] md:h-[34px] 2xl:w-[86px] 2xl:h-[36px] transition-all linear duration-300"
+      >
+        SIGN IN
+      </button>
+      <div class="flex gap-3 ">
+        <a href="#"
+          ><img
+            class="w-[24px] h-[24px] lg:w-[32px] lg:h-[32px]"
+            src="./images/user.svg"
+            alt="user"
+        /></a>
+        <a href="#"
+          ><img
+            class="w-[23.5px] h-[23.5px] lg:w-[32px] lg:h-[32px]"
+            src="./images/basket.svg"
+            alt="basket"
+        /></a>
+        <label for="open"
+          ><img
+            class="w-[24px] h-[24px] cursor-pointer md:hidden"
+            src="./images/menu.svg"
+            alt="open-menu"
+        /></label>
+      </div>
+    </header>
+
+    <main>
+      <section class="w-fuul">
+        <div class="w-full lg:flex">
+          <div class="text-center lg:w-[50%] my-auto">
+            <div
+              class="flex justify-start items-center space-x-2 lg:absolute lg:top-[105px] "
+            >
+              <div class="px-[10px]">
+                <input
+                  type="checkbox"
+                  name=""
+                  id="toggle"
+                  class="hidden"
+                  title="toggle"
+                />
+                <label for="toggle" class="cursor-pointer">
+                  <div
+                    class="w-9 h-5 flex items-center bg-gray-300 rounded-full border-solid border-2 border-gray-600 p-1 mt-2 dark:bg-gray-700"
+                  >
+                    <div
+                      class="toggle-dot w-4 h-4 bg-white rounded-full shadow-md transform duration-300 ease-out"
+                    >
+                      <img
+                        class="w-full bg-gray-300 dark:bg-gray-600 rounded-full"
+                        src="./images/darkMode.svg"
+                        alt="dark mode"
+                      />
+                    </div>
+                  </div>
+                </label>
+              </div>
+            </div>
+            <img
+              src="./images/FLW-1.png"
+              alt="Flower"
+              class="flw1 w-[50px] absolute right-[8%] top-[80px] lg:top-[150px] sm:top-[130px] lg:right-[53%] lg:w-[60px] xl:right-[55%] xl:top-[190px] xl:w-[80px] "
+            />
+            <div class="txt w-[300px] md:w-[400px]  mx-auto  ">
+              <h1
+                class="font-[PlayfairDisplay-Bold] text-[45px] md:text-[61px] text-[#484a4b] leading-[48px] md:leading-[58px] dark:text-white "
+              >
+                Flower <br />
+                Arrangements
+              </h1>
+              <h2
+                class="font-[MontserratAlternates-Bold] text-[20px]  md:text-[26px] text-[#765a33]  mt-[32px] mb-[10px] dark:text-white "
+              >
+                • For all special occasions •
+              </h2>
+              <p
+                class="text-justify font-[JosefinSlab-Regular] text-[16px] md:text-[28px]  text-[#765a33] leading-8 dark:text-white "
+              >
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+
+            <div class="mt-[35px]">
+              <button
+                type="button"
+                class="mr-[32px] rounded-full bg-[#787878] text-white font-bold w-[96px] h-[32px] hover:text-black transition-all ease-out duration-300 text-[14px]"
+              >
+                SHOP
+              </button>
+
+              <a
+                href="#"
+                class="text-[#484a4b] font-bold  font-[MontserratAlternates-Bold] text-[14px] dark:text-white hover:text-black transition-all ease-out duration-300 dark:hover:text-black dark:transition-all dark:ease-out dark:duration-300"
+                >READ MORE</a
+              >
+            </div>
+            <img
+              src="./images/FLW-2.png"
+              alt="Flower"
+              class="flw2 w-[90px]  absolute top-[343px] left-[-35px] sm:top-[453px]  lg:md:w-[130px] lg:top-[520px] xl:top-[650px] 2xl:top-[800px] "
+            />
+          </div>
+
+          <div class="mt-[50px] w-full lg:w-[50%] lg:mt-0 ">
+            <img src="./images/P.jpg" alt="woman" class="w-full  " />
+          </div>
+        </div>
+        <div
+          class="w-full h-[180px] bg-[#6b502c]  text-white flex flex-row flex-wrap justify-center items-center  dark:bg-gray-700"
+        >
+          <div class="w-[50%] lg:w-[25%] text-center ">
+            <a
+              href="#"
+              class="font-[PlayfairDisplay-Bold] text-[32px] xl:text-[40px] "
+              >3000+</a
+            >
+            <p class="text-[13px] font-[MontserratAlternates-Regular]">
+              Packages Sold
+            </p>
+          </div>
+          <div class="w-[50%] lg:w-[25%] text-center pb-2">
+            <a
+              href="#"
+              class="font-[PlayfairDisplay-Bold] text-[32px] xl:text-[40px] "
+              >5000+</a
+            >
+            <p class="text-[13px] font-[MontserratAlternates-Regular] ">
+              Bouquet Sold
+            </p>
+          </div>
+          <div class="w-[50%] lg:w-[25%] text-center pb-2 ">
+            <a
+              href="#"
+              class="font-[PlayfairDisplay-Bold] text-[32px] xl:text-[40px] "
+              >7000+</a
+            >
+            <p class="text-[13px] font-[MontserratAlternates-Regular] ">
+              Happy Clients
+            </p>
+          </div>
+          <div class="w-[50%] lg:w-[25%] text-center pb-2">
+            <a
+              href="#"
+              class="font-[PlayfairDisplay-Bold] text-[32px] xl:text-[40px] "
+              >10+</a
+            >
+            <p class="text-[13px] font-[MontserratAlternates-Regular] ">
+              Years of Experience
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="w-fuul relative">
+        <img
+          src="./images/flw-3.png"
+          alt="flower"
+          class="w-[40px] lg:w-[60px] absolute top-[-20px] left-[1%] lg:left-[2%] lg:top-[0px]"
+        />
+        <img
+          src="./images/flw-4.png"
+          alt="flower"
+          class="w-[40px] lg:w-[60px] absolute top-[-20px]  right-[1%] lg:right-[2%] lg:top-[0px]"
+        />
+
+        <div class="w-300px md:w-[400px] mx-auto my-[40px] lg:my-[64px] ">
+          <h2
+            class="font-[PlayfairDisplay-Bold] text-center text-[32px] md:text-[44px] text-[#484a4b]  dark:text-white "
+          >
+            Our Top Products
+          </h2>
+          <p
+            class="font-[MontserratAlternates-Regular] text-center text-[14px] md:text-[18px] text-[#765a33] font-semibold dark:text-white "
+          >
+            Lorem ipsum dolor sit amet, consectetur.
+          </p>
+        </div>
+
+        <div class="owl-carousel owl-theme w-full mb-[10px] ">
+          <div
+            class="shadow-[5px_5px_5px_rgba(0,0,0,50%)] bg-[#e6e3da]  dark:bg-gray-700 mx-[15px] mb-[10px]"
+          >
+            <img src="./images/prd-1.jpg" alt="flower" class="mb-[12px]" />
+            <span class="flex w-[20px] h-[20px]  ml-auto mr-[15px]"
+              ><img src="./images/Heart.png" alt="heart" class="cursor-pointer"
+            /></span>
+
+            <h3
+              class="text-center font-[PlayfairDisplay-Bold] text-[32px] text-[#484a4b]
+              dark:text-white"
+            >
+              Lorem ipsum
+            </h3>
+            <p
+              class="mx-auto text-justify mb-[10px] px-[10%] text-[#765a33] dark:text-white"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor.
+            </p>
+            <button
+              type="button"
+              class="text-white font-bold hover:text-black transition-all ease-out duration-300 font-[MontserratAlternates-Regular] text-[13px] bg-[#454545] px-4 py-1 rounded-full ml-[10%] mb-[15px] dark:border-solid dark:border-2 dark:border-white"
+            >
+              READ MORE
+            </button>
+          </div>
+
+          <div
+            class="shadow-[5px_5px_5px_rgba(0,0,0,50%)] bg-[#e6e3da] dark:bg-gray-700 mx-[15px] mb-[10px] "
+          >
+            <img src="./images/prd-2.jpg" alt="flower" class="mb-[12px]" />
+            <span class="flex w-[20px] h-[20px]  ml-auto mr-[15px]"
+              ><img src="./images/Heart.png" alt="heart" class="cursor-pointer"
+            /></span>
+
+            <h3
+              class="text-center font-[PlayfairDisplay-Bold] text-[32px] text-[#484a4b] dark:text-white"
+            >
+              Lorem ipsum
+            </h3>
+            <p
+              class="mx-auto text-justify mb-[10px] px-[10%] text-[#765a33] dark:text-white"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor.
+            </p>
+            <button
+              type="button"
+              class="text-white font-bold hover:text-black transition-all ease-out duration-300 font-[MontserratAlternates-Regular] text-[13px] bg-[#454545] px-4 py-1 rounded-full ml-[10%] mb-[15px] dark:border-solid dark:border-2 dark:border-white"
+            >
+              READ MORE
+            </button>
+          </div>
+
+          <div
+            class="shadow-[5px_5px_5px_rgba(0,0,0,50%)] bg-[#e6e3da] dark:bg-gray-700 mx-[15px] mb-[10px]"
+          >
+            <img src="./images/prd-3.jpg" alt="flower" class="mb-[12px]" />
+            <span class="flex w-[20px] h-[20px]  ml-auto mr-[15px]"
+              ><img src="./images/Heart.png" alt="heart" class="cursor-pointer"
+            /></span>
+
+            <h3
+              class="text-center font-[PlayfairDisplay-Bold] text-[32px] text-[#484a4b] dark:text-white"
+            >
+              Lorem ipsum
+            </h3>
+            <p
+              class="mx-auto text-justify mb-[10px] px-[10%] text-[#765a33] dark:text-white"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor.
+            </p>
+            <button
+              type="button"
+              class="text-white font-bold hover:text-black transition-all ease-out duration-300 font-[MontserratAlternates-Regular] text-[13px] bg-[#454545] px-4 py-1 rounded-full ml-[10%] mb-[15px] dark:border-solid dark:border-2 dark:border-white"
+            >
+              READ MORE
+            </button>
+          </div>
+
+          <div
+            class="shadow-[5px_5px_5px_rgba(0,0,0,50%)] bg-[#e6e3da] dark:bg-gray-700 mx-[15px] mb-[10px]"
+          >
+            <img src="./images/prd-4.jpg" alt="flower" class="mb-[12px]" />
+            <span class="flex w-[20px] h-[20px]  ml-auto mr-[15px]"
+              ><img src="./images/Heart.png" alt="heart" class="cursor-pointer"
+            /></span>
+
+            <h3
+              class="text-center font-[PlayfairDisplay-Bold] text-[32px] text-[#484a4b] dark:text-white"
+            >
+              Lorem ipsum
+            </h3>
+            <p
+              class="mx-auto text-justify mb-[10px] px-[10%] text-[#765a33] dark:text-white"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor.
+            </p>
+            <button
+              type="button"
+              class="text-white font-bold hover:text-black transition-all ease-out duration-300 font-[MontserratAlternates-Regular] text-[13px] bg-[#454545] px-4 py-1 rounded-full ml-[10%] mb-[15px] dark:border-solid dark:border-2 dark:border-white"
+            >
+              READ MORE
+            </button>
+          </div>
+
+          <div
+            class="shadow-[5px_5px_5px_rgba(0,0,0,50%)] bg-[#e6e3da] dark:bg-gray-700 mx-[15px] mb-[10px]"
+          >
+            <img src="./images/prd-1.jpg" alt="flower" class="mb-[12px]" />
+            <span class="flex w-[20px] h-[20px]  ml-auto mr-[15px]"
+              ><img src="./images/Heart.png" alt="heart" class="cursor-pointer"
+            /></span>
+
+            <h3
+              class="text-center font-[PlayfairDisplay-Bold] text-[32px] text-[#484a4b] dark:text-white"
+            >
+              Lorem ipsum
+            </h3>
+            <p
+              class="mx-auto text-justify mb-[10px] px-[10%] text-[#765a33] dark:text-white"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor.
+            </p>
+            <button
+              type="button"
+              class="text-white font-bold hover:text-black transition-all ease-out duration-300 font-[MontserratAlternates-Regular] text-[13px] bg-[#454545] px-4 py-1 rounded-full ml-[10%] mb-[15px] dark:border-solid dark:border-2 dark:border-white"
+            >
+              READ MORE
+            </button>
+          </div>
+
+          <div
+            class="shadow-[5px_5px_5px_rgba(0,0,0,50%)] bg-[#e6e3da] dark:bg-gray-700 mx-[15px] mb-[10px]"
+          >
+            <img src="./images/prd-2.jpg" alt="flower" class="mb-[12px]" />
+            <span class="flex w-[20px] h-[20px]  ml-auto mr-[15px]"
+              ><img src="./images/Heart.png" alt="heart" class="cursor-pointer"
+            /></span>
+
+            <h3
+              class="text-center font-[PlayfairDisplay-Bold] text-[32px] text-[#484a4b] dark:text-white"
+            >
+              Lorem ipsum
+            </h3>
+            <p
+              class="mx-auto text-justify mb-[10px] px-[10%] text-[#765a33] dark:text-white"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor.
+            </p>
+            <button
+              type="button"
+              class="text-white font-bold hover:text-black transition-all ease-out duration-300 font-[MontserratAlternates-Regular] text-[13px] bg-[#454545] px-4 py-1 rounded-full ml-[10%] mb-[15px] dark:border-solid dark:border-2 dark:border-white"
+            >
+              READ MORE
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="xl:mb-[20px] ">
+          <h2
+            class="font-[PlayfairDisplay-Bold] text-center text-[32px] md:text-[44px]  text-[#484a4b]  dark:text-white  "
+          >
+            How we do it
+          </h2>
+          <p
+            class="font-[MontserratAlternates-Regular] text-center text-[14px] md:text-[18px] text-[#765a33] font-semibold dark:text-white "
+          >
+            Lorem ipsum dolor sit amet, consectetur.
+          </p>
+        </div>
+
+        <div class="relative">
+          <img
+            src="./images/flw-5.png"
+            alt="flower"
+            class="w-[25px] md:w-[35px] lg:w-[50px] xl:w-[70px] 2xl:w-[90px] absolute top-[8px] xl:top-[-60px] left-0 "
+          />
+        </div>
+
+        <div class="relative mx-[8%] lg:mx-[12%] top-[50px]">
+          <div
+            class="w-[50%] h-[50%] border-solid border-2 xl:border-[5px]  border-[#8a6a3e]  absolute top-[-6%] xl:top-[-4%] right-[-4%] xl:right-[-2.5%] z-5"
+          ></div>
+
+          <img
+            src="./images/video.jpg"
+            alt="video"
+            class="relative z-10 mx-auto w-full"
+          />
+
+          <div
+            class="w-[25%] h-[50%] bg-[#c87e6b] absolute bottom-[-6%] xl:bottom-[-4%] left-[-4%] xl:left-[-2.5%] "
+          ></div>
+        </div>
+
+        <div class="relative">
+          <img
+            src="./images/flw-6.png"
+            alt="flower"
+            class="w-[25px] md:w-[35px] lg:w-[50px] xl:w-[70px] 2xl:w-[90px] absolute top-[10px] xl:top-[-60px] right-0"
+          />
+        </div>
+      </section>
+
+      <section
+        class="mt-[100px] md:mt-[130px] 2xl:mb-[100px] w-full mb-[30px] lg:flex lg:mt-[150px] 2xl:mt-[210px]  "
+      >
+        <div class="w-full mb-[8px] ">
+          <img src="./images/offer.jpg" alt="offer" class="w-full" />
+        </div>
+
+        <div class="w-full">
+          <img src="./images/woman-2.jpg" alt="woman" class="w-full" />
+        </div>
+      </section>
+
+      <section
+        class="mx-[8%] lg:mx-[12%] lg:flex lg:gap-[10%] mb-[450px] lg:mb-[100px] md:mb-[470px] "
+      >
+        <div class="relative top-[50px] mb-[100px] lg:w-[60%] ">
+          <div
+            class="w-[25%] h-[25%] bg-[#c87e6b] absolute top-[-6%]  xl:top-[-4%] right-[-4%] xl:right-[-2.5%] z-5 "
+          ></div>
+
+          <img
+            src="./images/flower-01.jpg"
+            alt="video"
+            class="relative z-10 mx-auto w-full"
+          />
+
+          <div
+            class="w-[50%] h-[50%]  absolute bottom-[-6%] xl:bottom-[-4%] left-[-4%] xl:left-[-2.5%] border-solid border-2 xl:border-[5px]  border-[#8a6a3e]"
+          ></div>
+        </div>
+
+        <div class="relative lg:w-[40%]  lg:mt-[2%] xl:mt-[8%] 2xl:mt-[11%]">
+          <img
+            src="./images/flw-7.png"
+            alt="flower"
+            class="absolute top-[0px] left-0 w-[80px] lg:w-[100px] mb-[50px] "
+          />
+          <div class="absolute top-[60px] 2xl:mt-[20px] w-full">
+            <h2
+              class="font-[PlayfairDisplay-Bold]  text-[32px] md:text-[44px]  text-[#484a4b]  dark:text-white leading-[48px]
+              mb-[15px] "
+            >
+              We select the <br />
+              best flowers
+            </h2>
+            <p
+              class="text-justify font-[JosefinSlab-Regular] text-[16px] md:text-[28px]  text-[#765a33] leading-8 dark:text-white mb-[16px] 2xl:mt-[20px]"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et.
+            </p>
+            <button
+              type="button"
+              class="text-white font-bold hover:text-black transition-all ease-out duration-300 font-[MontserratAlternates-Regular] text-[13px] bg-[#454545] px-4 py-1 rounded-full  mb-[15px] dark:border-solid dark:border-2 dark:border-white text-left 2xl:mt-[20px]"
+            >
+              READ MORE
+            </button>
+          </div>
+
+          <div
+            class="absolute top-[240px]  right-[-9.5%] lg:right-[-43.9%] lg:top-[380px] xl:top-[410px] 2xl:top-[440px] "
+          >
+            <img
+              src="./images/flw-8.png"
+              alt="flower"
+              class="w-[70px] md:w-[90px] lg:w-[110px] xl:w-[120px] 2xl:w-[150px]"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="mx-[8%]  lg:mx-[12%] lg:flex lg:gap-[10%] mb-[460px] lg:mb-[100px]"
+      >
+        <div class="relative  top-[50px] mb-[100px] lg:w-[60%] lg:hidden">
+          <div
+            class="w-[25%] h-[25%] bg-[#c87e6b] absolute top-[-6%] xl:top-[-4%] left-[-4%] xl:left-[-2.5%] z-5 lg:hidden "
+          ></div>
+
+          <img
+            src="./images/flower-02.jpg"
+            alt="flower"
+            class="relative z-10 mx-auto w-full"
+          />
+
+          <div
+            class="w-[50%] h-[50%]  absolute bottom-[-6%] xl:bottom-[-4%] right-[-4%] xl:right-[-2.5%] border-solid border-2 xl:border-[5px]  border-[#8a6a3e]"
+          ></div>
+        </div>
+
+        <div class="relative lg:w-[40%]  lg:mt-[2%] xl:mt-[8%] 2xl:mt-[11%]">
+          <img
+            src="./images/flw-7.png"
+            alt="flower"
+            class="absolute top-[0px] left-0 w-[80px] lg:w-[100px] mb-[50px] "
+          />
+          <div class="absolute top-[60px] 2xl:mt-[20px] w-full">
+            <h2
+              class="font-[PlayfairDisplay-Bold]  text-[32px] md:text-[44px]  text-[#484a4b]  dark:text-white leading-[48px]
+              mb-[15px]"
+            >
+              We take care<br />
+              of the details
+            </h2>
+            <p
+              class="text-justify font-[JosefinSlab-Regular] text-[16px] md:text-[28px]  text-[#765a33] leading-8 dark:text-white mb-[16px] 2xl:mt-[20px]"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et.
+            </p>
+            <button
+              type="button"
+              class="text-white font-bold hover:text-black transition-all ease-out duration-300 font-[MontserratAlternates-Regular] text-[13px] bg-[#454545] px-4 py-1 rounded-full  mb-[15px] dark:border-solid dark:border-2 dark:border-white text-left 2xl:mt-[20px]"
+            >
+              READ MORE
+            </button>
+          </div>
+
+          <div
+            class="absolute  top-[295px] left-[-9.5%] lg:left-[-45%] lg:top-[380px] xl:top-[410px] 2xl:top-[440px]"
+          >
+            <img
+              src="./images/flw-9.png"
+              alt="flower"
+              class="w-[70px] md:w-[90px] lg:w-[110px] xl:w-[120px] 2xl:w-[150px]"
+            />
+          </div>
+        </div>
+
+        <div
+          class="hidden lg:flex lg:relative  top-[50px] mb-[100px] lg:w-[60%] "
+        >
+          <div
+            class="w-[25%] h-[25%] bg-[#c87e6b] absolute top-[-6%] xl:top-[-4%] left-[-4%] xl:left-[-2.5%] z-5  "
+          ></div>
+
+          <img
+            src="./images/flower-02.jpg"
+            alt="flower"
+            class="relative z-10 mx-auto w-full"
+          />
+
+          <div
+            class="w-[50%] h-[50%]  absolute bottom-[-6%] xl:bottom-[-4%] right-[-4%] xl:right-[-2.5%] border-solid border-2 xl:border-[5px]  border-[#8a6a3e]"
+          ></div>
+        </div>
+      </section>
+
+      <section
+        class="mx-[8%] lg:mx-[12%] lg:flex lg:gap-[10%] mb-[450px] lg:mb-[100px] md:mb-[470px] "
+      >
+        <div class="relative top-[50px] mb-[100px] lg:w-[60%] ">
+          <div
+            class="w-[25%] h-[25%] bg-[#c87e6b] absolute top-[-6%]  xl:top-[-4%] right-[-4%] xl:right-[-2.5%] z-5 "
+          ></div>
+
+          <img
+            src="./images/flower-03.jpg"
+            alt="video"
+            class="relative z-10 mx-auto w-full"
+          />
+
+          <div
+            class="w-[50%] h-[50%]  absolute bottom-[-6%] xl:bottom-[-4%] left-[-4%] xl:left-[-2.5%] border-solid border-2 xl:border-[5px]  border-[#8a6a3e]"
+          ></div>
+        </div>
+
+        <div class="relative lg:w-[40%]  lg:mt-[2%] xl:mt-[8%] 2xl:mt-[11%]">
+          <img
+            src="./images/flw-7.png"
+            alt="flower"
+            class="absolute top-[0px] left-0 w-[80px] lg:w-[100px] mb-[50px] "
+          />
+          <div class="absolute top-[60px] 2xl:mt-[20px] w-full">
+            <h2
+              class="font-[PlayfairDisplay-Bold]  text-[32px] md:text-[44px]  text-[#484a4b]  dark:text-white leading-[48px]
+              mb-[15px] "
+            >
+              We love what<br />
+              we do
+            </h2>
+            <p
+              class="text-justify font-[JosefinSlab-Regular] text-[16px] md:text-[28px]  text-[#765a33] leading-8 dark:text-white mb-[16px] 2xl:mt-[20px]"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et.
+            </p>
+            <button
+              type="button"
+              class="text-white font-bold hover:text-black transition-all ease-out duration-300 font-[MontserratAlternates-Regular] text-[13px] bg-[#454545] px-4 py-1 rounded-full  mb-[15px] dark:border-solid dark:border-2 dark:border-white text-left 2xl:mt-[20px]"
+            >
+              READ MORE
+            </button>
+          </div>
+
+          <div
+            class="absolute top-[240px]  right-[-9.5%] lg:right-[-43.9%] lg:top-[380px] xl:top-[410px] 2xl:top-[440px] "
+          >
+            <img
+              src="./images/flw-8.png"
+              alt="flower"
+              class="w-[70px] md:w-[90px] lg:w-[110px] xl:w-[120px] 2xl:w-[150px]"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="mx-[8%] lg:mx-[12%]">
+        <h2
+          class="font-[PlayfairDisplay-Bold] text-center text-[32px] md:text-[44px]  text-[#484a4b]  dark:text-white leading-[48px] mb-[25px]"
+        >
+          Subscribe to our <br />
+          newsletter
+        </h2>
+
+        <p
+          class="text-center font-[JosefinSlab-Regular] text-[16px] md:text-[28px]  text-[#484a4b] leading-8 dark:text-white mb-[25px] 2xl:mt-[20px] xl:px-[19px] "
+        >
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <form
+          action="#"
+          class="w-full font-[MontserratAlternates-Regular] text-[13px] lg:text-[16px] text-center"
+        >
+          <input
+            type="text"
+            title="name"
+            placeholder="Your Name"
+            class="mb-[15px] w-full border-2 border-solid border-[#cdcdcd] h-[50px] px-[10px] dark:bg-gray-700 dark:text-white "
+          />
+
+          <input
+            type="email"
+            title="email"
+            placeholder="Mail"
+            class="mb-[15px] w-full border-2 border-solid border-[#cdcdcd]  h-[50px] px-[10px] dark:bg-gray-700 dark:text-white "
+          />
+
+          <textarea
+            name="text"
+            id="text"
+            cols="10"
+            rows="10"
+            placeholder="Massages"
+            class="mb-[15px] w-full border-2 border-solid border-[#cdcdcd] resize-none p-[10px] dark:bg-gray-700 dark:text-white "
+          ></textarea>
+
+          <input
+            type="submit"
+            title="send"
+            value="SEND MESSAGE"
+            class="mb-[15px] bg-[#c87e6b] px-[12px] py-[6px] font-bold text-white rounded-[30px] dark:text-white hover:text-black transition-all ease-out duration-300 dark:hover:text-black dark:transition-all dark:ease-out dark:duration-300 cursor-pointer "
+          />
+        </form>
+      </section>
+    </main>
+
+    <footer
+      class="w-full bg-[#424242] text-white font-[MontserratAlternates-Regular] p-[8%] xl:py-[3%] dark:bg-gray-700 "
+    >
+      <section class="mt-[25px] md:mt-[30px]  md:flex justify-around ">
+        <div class="mb-[20px]">
+          <h2 class="font-bold text-[20px] mb-[6px]">About</h2>
+          <a
+            class="block text-[13px] lg:text-[16px] dark:text-white hover:text-black transition-all ease-out duration-300 dark:hover:text-black dark:transition-all dark:ease-out dark:duration-300 "
+            href="#"
+            >History</a
+          >
+          <a
+            class="block text-[13px] lg:text-[16px] dark:text-white hover:text-black transition-all ease-out duration-300 dark:hover:text-black dark:transition-all dark:ease-out dark:duration-300 "
+            href="#"
+            >Our Team</a
+          >
+          <a
+            class="block text-[13px] lg:text-[16px] dark:text-white hover:text-black transition-all ease-out duration-300 dark:hover:text-black dark:transition-all dark:ease-out dark:duration-300 "
+            href="#"
+            >Mission Statement</a
+          >
+          <a
+            class="block text-[13px] lg:text-[16px] dark:text-white hover:text-black transition-all ease-out duration-300 dark:hover:text-black dark:transition-all dark:ease-out dark:duration-300 "
+            href="#"
+            >Terms & Condition</a
+          >
+          <a
+            class="block text-[13px] lg:text-[16px] dark:text-white hover:text-black transition-all ease-out duration-300 dark:hover:text-black dark:transition-all dark:ease-out dark:duration-300 "
+            href="#"
+            >Privacy & Policy</a
+          >
+        </div>
+
+        <div class="mb-[20px]">
+          <h2 class="font-bold text-[20px] mb-[6px]">What we do</h2>
+          <a
+            class="block text-[13px] lg:text-[16px] dark:text-white hover:text-black transition-all ease-out duration-300 dark:hover:text-black dark:transition-all dark:ease-out dark:duration-300 "
+            href="#"
+            >News and stories</a
+          >
+          <a
+            class="block text-[13px] lg:text-[16px] dark:text-white hover:text-black transition-all ease-out duration-300 dark:hover:text-black dark:transition-all dark:ease-out dark:duration-300 "
+            href="#"
+            >Publications</a
+          >
+          <a
+            class="block text-[13px] lg:text-[16px] dark:text-white hover:text-black transition-all ease-out duration-300 dark:hover:text-black dark:transition-all dark:ease-out dark:duration-300 "
+            href="#"
+            >Take action</a
+          >
+          <a
+            class="block text-[13px] lg:text-[16px] dark:text-white hover:text-black transition-all ease-out duration-300 dark:hover:text-black dark:transition-all dark:ease-out dark:duration-300 "
+            href="#"
+            >Recomendations</a
+          >
+          <a
+            class="block text-[13px] lg:text-[16px] dark:text-white hover:text-black transition-all ease-out duration-300 dark:hover:text-black dark:transition-all dark:ease-out dark:duration-300 "
+            href="#"
+            >Help</a
+          >
+        </div>
+
+        <div class="mb-[20px]">
+          <h2 class="font-bold text-[20px] mb-[6px]">Your Company</h2>
+          <p class="text-[13px] lg:text-[16px]">Halimun Street 25</p>
+          <p class="text-[13px] lg:text-[16px]">Jakarta, City 1234</p>
+          <a
+            class="block text-[13px] lg:text-[16px] dark:text-white hover:text-black transition-all ease-out duration-300 dark:hover:text-black dark:transition-all dark:ease-out dark:duration-300 "
+            href="mailto"
+            >www.yourflowersite.com</a
+          >
+        </div>
+      </section>
+
+      <section
+        class="flex justify-center h-[50px] gap-[16px] items-center md:justify-end md:mt-[30px] px-[8%] xl:px-[10%] "
+      >
+        <p class="font-bold text-[16px]">Follow us!</p>
+        <a href="#">
+          <img src="./images/facebook.svg" alt="facebook" />
+        </a>
+        <a href="#">
+          <img src="./images/instagram.svg" alt="instagram" />
+        </a>
+        <a href="#">
+          <img src="./images/youtube.svg" alt="youtube" />
+        </a>
+      </section>
+    </footer>
+
+    <!-- -----Start script----- -->
+    <!-- -----Start script DarkMode----- -->
+    <script>
+      const checkbox = document.querySelector("#toggle");
+      const html = document.querySelector("html");
+
+      const toggleDarkMode = function() {
+        checkbox.checked
+          ? html.classList.add("dark")
+          : html.classList.remove("dark");
+      };
+
+      toggleDarkMode();
+      checkbox.addEventListener("click", toggleDarkMode);
+    </script>
+    <!-- -----End script DarkMode----- -->
+    <!-- -----Start script OWL----- -->
+    <script src="./js/jquery.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <!-- -----End script OWL----- -->
+
+    <script src="./js/owl-responsive.js"></script>
+    <!-- -----End script----- -->
+  </body>
+</html>
